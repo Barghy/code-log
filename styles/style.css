@@ -1,0 +1,204 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+  background-color: #f7f7f7;
+}
+
+nav {
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.10), 0 0 0 1px rgba(0,0,0,0.04);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav a {
+  float: right;
+  color: #f2f2f2;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 19.5px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+nav a.home {
+  float: left;
+  font-family: Roboto !important;
+  font-weight: 800 !important;
+  font-size: 20px;
+  color: #424242;
+  padding: 16px 16px;
+}
+
+nav a.home:hover {
+  font-weight: 900;
+  color: #000000;
+}
+
+nav a.utilities:hover {
+  border-bottom: 5px solid #424242;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #424242;
+}
+
+nav a.html:hover {
+  border-bottom: 5px solid #FF5722;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #FF5722;
+}
+
+nav a.css:hover {
+  border-bottom: 5px solid #2196F3;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #2196F3;
+}
+
+nav a.javascript:hover {
+  border-bottom: 5px solid #FFC107;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #FFC107;
+}
+
+nav a.ruby:hover, nav a.rails:hover {
+  border-bottom: 5px solid #F44336;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #F44336;
+}
+
+nav a.python:hover {
+  border-bottom: 5px solid #03A9F4;
+  padding-bottom: 14.5px;
+  font-weight: 900;
+  color: #03A9F4;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+article {
+  flex: 0 1 calc(25% - 1em);
+  box-sizing: border-box;
+  margin: 1rem .25em;
+  min-width: 300px;
+  min-height: 250px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+  border-left: 5px solid white;
+}
+
+article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+article a:link, article a:visited {
+    background-color: #E0E0E0;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+article a:hover, article a:active {
+    background-color: #BDBDBD;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+h1 {
+    vertical-align: top;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    height: 50px;
+}
+
+article.utilities:hover {
+  border-left: 5px solid #424242;
+}
+
+
+article.utilities:hover a {
+  background-color: #424242;
+  border-left: 0px;
+  color: white;
+}
+
+article.html:hover {
+  border-left: 5px solid #FF5722;
+}
+
+article.html:hover a {
+  background-color: #FF5722;
+  border-left: 0px;
+}
+
+article.css:hover {
+  border-left: 5px solid #2196F3;
+}
+
+article.css:hover a {
+  background-color: #2196F3;
+  border-left: 0px;
+}
+
+article.javascript:hover {
+  border-left: 5px solid #FFC107;
+}
+
+article.javascript:hover a {
+  background-color: #FFC107;
+  border-left: 0px;
+}
+
+article.ruby:hover, article.rails:hover {
+  border-left: 5px solid #F44336;
+}
+
+article.ruby:hover a, article.rails:hover a {
+  background-color: #F44336;
+  border-left: 0px;
+}
+
+article.python:hover {
+  border-left: 5px solid #03A9F4;
+}
+
+article.python:hover a {
+  background-color: #03A9F4;
+  border-left: 0px;
+}
