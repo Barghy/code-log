@@ -7,6 +7,11 @@ body {
   background-color: #f7f7f7;
 }
 
+.contents {
+  position: relative;
+  top: 70px;
+}
+
 nav {
   overflow: hidden;
   background: rgba(255,255,255,0.97);
@@ -44,7 +49,7 @@ nav a.home:hover {
   color: #000000;
 }
 
-nav a.utilities:hover {
+nav a.utilities:hover, nav a.projects:hover {
   border-bottom: 5px solid #424242;
   padding-bottom: 14.5px;
   font-weight: 900;
@@ -79,7 +84,7 @@ nav a.ruby:hover, nav a.rails:hover {
   color: #F44336;
 }
 
-nav a.python:hover {
+nav a.python:hover, nav a.curriculum:hover {
   border-bottom: 5px solid #03A9F4;
   padding-bottom: 14.5px;
   font-weight: 900;
@@ -148,12 +153,12 @@ p {
     height: 50px;
 }
 
-article.utilities:hover {
+article.utilities:hover, article.projects:hover {
   border-left: 5px solid #424242;
 }
 
 
-article.utilities:hover a {
+article.utilities:hover a, article.projects:hover a {
   background-color: #424242;
   border-left: 0px;
   color: white;
@@ -195,11 +200,11 @@ article.ruby:hover a, article.rails:hover a {
   border-left: 0px;
 }
 
-article.python:hover {
+article.python:hover, article.curriculum:hover {
   border-left: 5px solid #03A9F4;
 }
 
-article.python:hover a {
+article.python:hover a, article.curriculum:hover a {
   background-color: #03A9F4;
   border-left: 0px;
 }
